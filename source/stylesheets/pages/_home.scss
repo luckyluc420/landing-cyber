@@ -1,7 +1,8 @@
 #home {
   background-color: #FFFFFF;
-  background-image: url("images/test2 bebe.jpg");
-  color: black;
+  background: image-url("background.jpg") center;
+  background-size: cover;
+  color: white;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -11,9 +12,69 @@
     margin-top: 1.5em;
   }
   a {
-    color: rgba(0,0,0,0.4);
+    color: #000000;
     font-weight: bold;
     font-size: 16px;
   }
+  a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  }
 }
 
+body{
+  background: rgb(245,245,245);
+  color: green;
+  font-size: 30px;
+  font-family: 'Do Hyeon', sans-serif;
+  background-color: #ffffff;
+}
+h1{
+  font-family: 'Do Hyeon', sans-serif;
+  color: red;
+  font-weight: lighter;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.btn-default {
+  color: #000000;
+  background-color: #FF9000;
+  border: 1px solid #FF9000;
+  padding: 20px 45px;
+  border-radius: 3px;
+  font-weight: lighter;
+  margin-top: 368px;
+}
+
+.btn-default:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 0.5px dashed #000000;
+}
+
+.btn-default:hover em {
+  color: #FF9000;
+}
+
+em {
+  color: white;
+  font-style: bold;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+a {
+  color: White;
+  /*font-family: 'Anton', sans-serif;*/
+  font-family: 'Teko', sans-serif;
+  justify-content: center;
+  padding: 8px 10px 10px 10px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #FF9000;
+
+}
