@@ -10,25 +10,11 @@
     <title><%= current_page.data.title %></title>
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
-    <%= favicon_tag 'images/favicon.png' %>
+    <%= favicon_tag 'images/unmask.png' %>
   </head>
   <body>
     <%= partial "layouts/navbar" %>
     <%= yield %>
-    <div class="footer">
-
-      <div class="footer-links">
-        <!-- <ul> -->
-          <a href="#"><i class="fa fa-youtube"></i></a>
-          <a href="#"><i class="fa fa-facebook"></i></a>
-          <a href="#"><i class="fa fa-twitter"></i></a>
-          <a href="#"><i class="fa fa-instagram"></i></a>
-        <!-- </ul> -->
-      </div>
-
-      <div class="footer-copyright">
-        <p>©Unmask Cyberbullying Lucas Egard #Growth4Good</p>
-      </div>
-    </div>
+    <%= partial "layouts/footer" %>
   </body>
 </html>
